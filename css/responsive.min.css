@@ -1,0 +1,1705 @@
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1400px) {
+  #aboutUs .cardBox.cardLeft {
+    left: 6%;
+  }
+
+  #aboutUs .cardBox.cardRight {
+    right: 6%;
+
+  }
+
+  #portfolio .portSlider img {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  #footer .allAdderss .details h3,
+  #footer .allAdderss .details h4 {
+    font-size: 13px !important;
+    line-height: 12px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  #aboutUs .cardBox.cardLeft {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    z-index: 500;
+    text-align: right;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+
+  #aboutUs .cardBox.cardRight {
+    position: absolute;
+    top: 50%;
+    right: -1%;
+    z-index: 500;
+    text-align: left;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+
+  #portfolio .portSlider .port-image .image {
+    position: relative;
+    padding: 20px 0 0;
+  }
+
+  #portfolio .portSlider img {
+    margin-bottom: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .navbar .nav-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 43px 0;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    position: relative;
+  }
+
+  #testimonial .testiSliderMain .sliderBox::before {
+    position: absolute;
+    top: 50%;
+    left: -2px;
+  }
+
+  #portfolio .portSlider .port-image .image {
+    position: relative;
+    padding: 0 0px;
+  }
+
+  #portfolio .portSlider .port-image .image img {
+    width: 100%;
+  }
+
+  #aboutUs .mainTarget {
+    margin: 0 auto;
+    margin-top: 240px;
+    margin-bottom: 240px;
+    width: 280px;
+    height: 280px;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  #aboutUs .cardBox {
+    width: 323px;
+    height: 210px;
+    position: relative;
+    padding: 40px 0 45px;
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+
+  #aboutUs .cardBox {
+    width: 323px;
+    height: 210px;
+    position: relative;
+    padding: 25px 0 30px;
+    padding-right: 30px;
+    padding-left: 33px;
+  }
+
+  #footer .socialLinks ul li {
+    margin-right: 24px;
+  }
+
+  #counter .cunterMain {
+    transform: rotate(-3.1deg);
+    -webkit-transform: rotate(-3.1deg);
+    -moz-transform: rotate(-4.1deg);
+    -ms-transform: rotate(-3.1deg);
+    -o-transform: rotate(-3.1deg);
+    margin-top: 90px;
+  }
+
+  #brands .brandMain {
+    transform: rotate(-4.1deg);
+    -webkit-transform: rotate(-4.1deg);
+    -moz-transform: rotate(-4.1deg);
+    -ms-transform: rotate(-4.1deg);
+    -o-transform: rotate(-4.1deg);
+    margin-top: 95px;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-light .navbar-brand {
+    padding: 20px 0;
+  }
+
+  .navbar .navbar-toggler i {
+    color: #000;
+    font-size: 25px;
+    width: 46px;
+    height: 35px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    line-height: 35px;
+    color: #000;
+  }
+
+  .navbar .navbar-toggler i:hover {
+    background: #fec600;
+    color: #fff;
+  }
+
+  #footer .allAdderss .details h3,
+  #footer .allAdderss .details h4 {
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  #header .navbar .nav-link::before {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  #header .navbar .nav-item.active .nav-link::before,
+  #header .navbar .nav-link.active,
+  #header .navbar .nav-link:hover::before {
+    width: 25%;
+  }
+
+  .navbar {
+    background: #000;
+  }
+
+  .navbar .navbar-brand img {
+    height: 35px;
+  }
+
+
+
+  .navbar .nav-link {
+    padding: 12px 0 !important;
+    text-align: center;
+    margin: 0 30px;
+  }
+
+  /* small device bannerArea css start here */
+
+
+  #bannerArea .bannerText h3 {
+    font-size: 28px;
+  }
+
+  #bannerArea .bannerText h1 {
+    font-size: 48px;
+  }
+
+  #bannerArea .bannerText p {
+    padding: 0 0;
+  }
+
+  #bannerArea .bannerButton {
+    padding: 0 5px;
+    top: 63%;
+  }
+
+  #bannerArea .bannerText a {
+    font-size: 12px;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 5px;
+  }
+
+  #bannerArea .bannerButton a {
+    height: 30px;
+    width: 30px;
+  }
+
+  #bannerArea .bannerButton a i {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  /* small device aboutUs css start here */
+  #aboutUs .mainTarget {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    padding: 12px;
+  }
+
+  #aboutUs .aboutMain {
+    padding: 0 20px;
+  }
+
+  #aboutUs .cardBox {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    padding: 20px 20px;
+    position: relative !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+
+  #aboutUs .cardBox h3 {
+    font-size: 15px;
+    margin-bottom: 4px !important;
+  }
+
+  #aboutUs .cardBox.cardTop {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+    width: 48%;
+    margin-right: 5px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  #aboutUs .cardBox.cardBottom {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+    width: 48%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  #aboutUs .cardBox.cardLeft {
+    position: relative;
+    left: 0%;
+    top: 0;
+    z-index: 500;
+    text-align: right;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    width: 48%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  #aboutUs .cardBox.cardRight {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    z-index: 500;
+    text-align: left;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    width: 48%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .cardBox.cardTop::after,
+  .cardBox.cardBottom::after,
+  .cardBox.cardRight::after,
+  .cardBox.cardLeft::after {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .cardBox.cardTop::before,
+  .cardBox.cardBottom::before,
+  .cardBox.cardRight::before,
+  .cardBox.cardLeft::before {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* small portfolio aboutUs css start here */
+
+
+  #portfolio .portSlider {
+    margin: 0 auto;
+  }
+
+  #portfolio .portSlider img {
+    width: 100%;
+  }
+
+  #portfolio .portSlider .port-image {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-right: 0px !important;
+  }
+
+  #portfolio .portSlider .port-image .image .overly {
+    width: 101%;
+  }
+
+  /* small ourServices aboutUs css start here */
+
+  #ourServices .serviceSlider .sliderMain {
+    padding: 30px 0;
+  }
+
+  #ourServices .serviceSlider .sliderMain.slick-center .icon {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    margin-bottom: 50px;
+  }
+
+  #ourServices .serviceSlider .sliderMain.rightSide .row {
+    flex-direction: column-reverse !important;
+  }
+
+  #ourServices .sliderMain .title {
+    display: block;
+    text-align: center !important;
+  }
+
+  #ourServices .serviceSlider .sliderMain .title h3 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon img {
+    height: 30px;
+  }
+
+  #ourServices .serviceSlider .scrollUp {
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+
+  #ourServices .serviceSlider .scrollDown {
+    position: absolute;
+    top: 0;
+    left: 60%;
+  }
+
+  #ourServices .serviceSlider::before {
+    display: none;
+  }
+
+  #ourServices .serviceSlider .box {
+    padding: 20px 15px 4px !important;
+    text-align: center !important;
+    border-radius: 10px;
+  }
+
+  #ourServices .serviceSlider .box:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    top: -15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) rotate(45deg) !important;
+    -webkit-transform: translateX(-50%) rotate(45deg) !important;
+    -moz-transform: translateX(-50%) rotate(45deg) !important;
+    -ms-transform: translateX(-50%) rotate(45deg) !important;
+    -o-transform: translateX(-50%) rotate(45deg) !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sliderMain.slick-center .box.right {
+    filter: drop-shadow(-3px 3px 2px #bdb3b3);
+    -webkit-filter: drop-shadow(-3px 3px 2px #bdb3b3);
+  }
+
+  /* small testimonial aboutUs css start here */
+
+
+  #testimonial .client .clinetsImage .imgBox {
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: #cccccc;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    -moz-transform: scale(0.8) !important;
+    -ms-transform: scale(0.8) !important;
+    -o-transform: scale(0.8) !important;
+  }
+
+  #testimonial .client .clinetsImage .slick-center .imgBox {
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    background: #fec600;
+  }
+
+  #testimonial .testiSliderMain .sliderBox {
+    padding: 30px 15px 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  #testimonial .testiSliderMain .sliderBox::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    content: '';
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  #testimonial .client .clinetsImage {
+    padding: 75px 0 25px;
+  }
+
+  /* small counter aboutUs css start here */
+
+
+  #counter {
+    height: 100%;
+    clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 100%);
+    padding: 10px 0 40px;
+    overflow-x: hidden;
+  }
+
+  #counter .cunterMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transform: rotate(-3.1deg);
+    -webkit-transform: rotate(-3.1deg);
+    -moz-transform: rotate(1.9deg);
+    -ms-transform: rotate(-3.1deg);
+    -o-transform: rotate(-3.1deg);
+    margin-top: 80px;
+    justify-content: space-evenly !important;
+  }
+
+  #counter .cunterMain .counterCard {
+    width: 135px;
+    padding: 10px 0;
+    margin-bottom: 17px;
+  }
+
+  #counter .cunterMain .counterCard h3 {
+    font-size: 20px;
+  }
+
+  #counter .cunterMain .counterCard span {
+    font-size: 14px;
+  }
+
+  /* small team aboutUs css start here */
+
+
+  #team .teamMember {
+    margin-bottom: 15px;
+  }
+
+  #team .teamMember .memberImage {
+    height: 200px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    font-size: 16px;
+  }
+
+  #team .teamMember .memberDetails h5 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  #team .teamMember:hover .socialLinks {
+    padding: 7px 0 7px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    margin-bottom: 3px;
+  }
+
+  /* small pricing aboutUs css start here */
+
+
+  #pricing .planCard {
+    background: #f1f1f1;
+    transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  /* small brands aboutUs css start here */
+
+  #brands {
+    padding-top: 115px;
+    overflow: hidden;
+  }
+
+  #brands .brandMain {
+    margin: 0;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+  }
+
+  #brands .brandMain .brandCard {
+    width: 200px;
+    height: 90px;
+  }
+
+  #brands .brandMain .brandCard img {
+    line-height: 90px;
+    width: 130px;
+  }
+
+  /* small footer aboutUs css start here */
+
+
+  #footer .logo {
+    margin-bottom: 35px;
+  }
+
+  #footer .socialLinks ul li {
+    margin-right: 10px;
+  }
+
+  #footer .socialLinks ul a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #footer .socialLinks ul a i {
+    font-size: 16px;
+  }
+
+  #footer .allAdderss {
+    border-right: none;
+    margin-bottom: 25px;
+  }
+
+  #footer .socialLinks {
+    margin-top: 8px;
+  }
+
+  #footer .socialLinks .title h4 {
+    font-size: 13px;
+  }
+
+  #footer .socialLinks ul {
+    margin-top: 15px;
+  }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-light .navbar-brand {
+    padding: 20px 0;
+  }
+  .navbar .navbar-toggler i {
+    color: #000;
+    font-size: 25px;
+    width: 46px;
+    height: 35px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    line-height: 35px;
+  }
+  .navbar .navbar-toggler i:hover{
+    background: #fec600;
+    color: #fff;
+  }
+  #header .navbar .nav-link::before {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  #header .navbar .nav-item.active .nav-link::before,
+  #header .navbar .nav-link.active,
+  #header .navbar .nav-link:hover::before {
+    width: 25%;
+  }
+
+  .navbar {
+    background: #000;
+  }
+
+  .navbar .navbar-brand img {
+    height: 35px;
+  }
+
+
+
+  .navbar .nav-link {
+    padding: 12px 0 !important;
+    text-align: center;
+    margin: 0 30px;
+  }
+
+  /* small device bannerArea css start here */
+
+
+  #bannerArea .bannerText h3 {
+    font-size: 28px;
+  }
+
+  #bannerArea .bannerText h1 {
+    font-size: 48px;
+  }
+
+  #bannerArea .bannerText p {
+    padding: 0 0;
+  }
+
+  #bannerArea .bannerButton {
+    padding: 0 5px;
+    top: 63%;
+  }
+
+  #bannerArea .bannerText a {
+    font-size: 12px;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 5px;
+  }
+
+  #bannerArea .bannerButton a {
+    height: 30px;
+    width: 30px;
+  }
+
+  #bannerArea .bannerButton a i {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  /* small device aboutUs css start here */
+  #aboutUs .mainTarget {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  #aboutUs .aboutMain {
+    padding: 0 20px;
+  }
+
+  #aboutUs .cardBox {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    padding: 20px 20px;
+    position: relative !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+
+  #aboutUs .cardBox h3 {
+    font-size: 15px;
+    margin-bottom: 4px !important;
+  }
+
+  #aboutUs .cardBox.cardTop {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+  }
+
+  #aboutUs .cardBox.cardBottom {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+  }
+
+  #aboutUs .cardBox.cardLeft {
+    position: relative;
+    left: 0%;
+    top: 0;
+    z-index: 500;
+    text-align: right;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+
+  #aboutUs .cardBox.cardRight {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    z-index: 500;
+    text-align: left;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+
+  .cardBox.cardTop::after,
+  .cardBox.cardBottom::after,
+  .cardBox.cardRight::after,
+  .cardBox.cardLeft::after {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .cardBox.cardTop::before,
+  .cardBox.cardBottom::before,
+  .cardBox.cardRight::before,
+  .cardBox.cardLeft::before {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* small portfolio aboutUs css start here */
+
+
+  #portfolio .portSlider {
+    margin: 0 auto;
+  }
+
+  #portfolio .portSlider img {
+    width: 100%;
+  }
+
+  #portfolio .portSlider .port-image {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-right: 0px !important;
+  }
+
+  #portfolio .portSlider .port-image .image .overly {
+    width: 101%;
+  }
+
+  /* small ourServices aboutUs css start here */
+
+  #ourServices .serviceSlider .sliderMain {
+    padding: 30px 0;
+  }
+
+  #ourServices .serviceSlider .sliderMain.slick-center .icon {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    margin-bottom: 50px;
+  }
+
+  #ourServices .serviceSlider .sliderMain.rightSide .row {
+    flex-direction: column-reverse !important;
+  }
+
+  #ourServices .sliderMain .title {
+    display: block;
+    text-align: center !important;
+  }
+
+  #ourServices .serviceSlider .sliderMain .title h3 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon img {
+    height: 30px;
+  }
+
+  #ourServices .serviceSlider .scrollUp {
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+
+  #ourServices .serviceSlider .scrollDown {
+    position: absolute;
+    top: 0;
+    left: 60%;
+  }
+
+  #ourServices .serviceSlider::before {
+    display: none;
+  }
+
+  #ourServices .serviceSlider .box {
+    padding: 20px 15px 4px !important;
+    text-align: center !important;
+    border-radius: 10px;
+  }
+
+  #ourServices .serviceSlider .box:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    top: -15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) rotate(45deg) !important;
+    -webkit-transform: translateX(-50%) rotate(45deg) !important;
+    -moz-transform: translateX(-50%) rotate(45deg) !important;
+    -ms-transform: translateX(-50%) rotate(45deg) !important;
+    -o-transform: translateX(-50%) rotate(45deg) !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sliderMain.slick-center .box.right {
+    filter: drop-shadow(-3px 3px 2px #bdb3b3);
+    -webkit-filter: drop-shadow(-3px 3px 2px #bdb3b3);
+  }
+
+  /* small testimonial aboutUs css start here */
+
+
+  #testimonial .client .clinetsImage .imgBox {
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: #cccccc;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    -moz-transform: scale(0.8) !important;
+    -ms-transform: scale(0.8) !important;
+    -o-transform: scale(0.8) !important;
+  }
+
+  #testimonial .client .clinetsImage .slick-center .imgBox {
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    background: #fec600;
+  }
+
+  #testimonial .testiSliderMain .sliderBox {
+    padding: 30px 15px 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  #testimonial .testiSliderMain .sliderBox::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    content: '';
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  #testimonial .client .clinetsImage {
+    padding: 75px 0 25px;
+  }
+
+  /* small counter aboutUs css start here */
+
+
+  #counter {
+    height: 100%;
+    clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 100%);
+    padding: 10px 0 40px;
+    overflow-x: hidden;
+  }
+
+  #counter .cunterMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transform: rotate(-3.1deg);
+    -webkit-transform: rotate(-3.1deg);
+    -moz-transform: rotate(1.9deg);
+    -ms-transform: rotate(-3.1deg);
+    -o-transform: rotate(-3.1deg);
+    margin-top: 80px;
+    justify-content: space-evenly !important;
+  }
+
+  #counter .cunterMain .counterCard {
+    width: 135px;
+    padding: 10px 0;
+    margin-bottom: 17px;
+  }
+
+  #counter .cunterMain .counterCard h3 {
+    font-size: 20px;
+  }
+
+  #counter .cunterMain .counterCard span {
+    font-size: 14px;
+  }
+
+  /* small team aboutUs css start here */
+
+
+  #team .teamMember {
+    margin-bottom: 15px;
+  }
+
+  #team .teamMember .memberImage {
+    height: 200px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    font-size: 16px;
+  }
+
+  #team .teamMember .memberDetails h5 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  #team .teamMember:hover .socialLinks {
+    padding: 7px 0 7px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    margin-bottom: 3px;
+  }
+
+  /* small pricing aboutUs css start here */
+
+
+  #pricing .planCard {
+    background: #f1f1f1;
+    transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  /* small brands aboutUs css start here */
+
+  #brands {
+    padding-top: 115px;
+    overflow: hidden;
+  }
+
+  #brands .brandMain {
+    margin: 0;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+  }
+
+  #brands .brandMain .brandCard {
+    width: 160px;
+    height: 90px;
+  }
+
+  #brands .brandMain .brandCard img {
+    line-height: 90px;
+    width: 130px;
+  }
+
+  /* small footer aboutUs css start here */
+
+
+  #footer .logo {
+    margin-bottom: 35px;
+  }
+
+  #footer .socialLinks ul li {
+    margin-right: 10px;
+  }
+
+  #footer .socialLinks ul a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #footer .socialLinks ul a i {
+    font-size: 16px;
+  }
+
+  #footer .allAdderss {
+    border-right: none;
+    margin-bottom: 25px;
+  }
+
+  #footer .socialLinks {
+    margin-top: 8px;
+  }
+
+  #footer .socialLinks .title h4 {
+    font-size: 16px;
+  }
+
+  #footer .socialLinks ul {
+    margin-top: 15px;
+  }
+}
+
+/* extra Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575.98px) {
+
+  .navbar {
+    background: #000;
+  }
+
+  .navbar .navbar-brand img {
+    height: 35px;
+  }
+
+  .navbar .navbar-toggler i {
+    color: #000;
+    font-size: 25px;
+    width: 46px;
+    height: 35px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    line-height: 35px;
+  }
+
+  .navbar .navbar-toggler i:hover {
+    background: #fec600;
+    color: #fff;
+  }
+
+  .navbar .nav-link {
+    padding: 12px 0 !important;
+    text-align: center;
+    margin: 0 30px;
+  }
+
+  #header .navbar .nav-link::before {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  #header .navbar .nav-item.active .nav-link::before,
+  #header .navbar .nav-link.active,
+  #header .navbar .nav-link:hover::before {
+    width: 25%;
+  }
+
+  /* xs device bannerArea css start here */
+
+  #bannerArea .bannerText h3 {
+    font-size: 28px;
+  }
+
+  #bannerArea .bannerText h1 {
+    font-size: 48px;
+  }
+
+  #bannerArea .bannerText p {
+    padding: 0 0;
+  }
+
+  #bannerArea .bannerButton {
+    padding: 0 5px;
+    top: 63%;
+  }
+
+  #bannerArea .bannerText a {
+    font-size: 12px;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 5px;
+  }
+
+  #bannerArea .bannerButton a {
+    height: 30px;
+    width: 30px;
+  }
+
+  #bannerArea .bannerButton a i {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  /* xs device aboutUs css start here */
+
+  #aboutUs .mainTarget {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  #aboutUs .aboutMain {
+    padding: 0 20px;
+  }
+
+  #aboutUs .cardBox {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    padding: 20px 20px;
+    position: relative !important;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+
+  #aboutUs .cardBox h3 {
+    font-size: 15px;
+    margin-bottom: 4px !important;
+  }
+
+  #aboutUs .cardBox.cardTop {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+  }
+
+  #aboutUs .cardBox.cardBottom {
+    position: relative;
+    top: 0;
+    left: 00%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    z-index: 500;
+  }
+
+  #aboutUs .cardBox.cardLeft {
+    position: relative;
+    left: 0%;
+    top: 0;
+    z-index: 500;
+    text-align: right;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+
+  #aboutUs .cardBox.cardRight {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    z-index: 500;
+    text-align: left;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+  }
+
+  .cardBox.cardTop::after,
+  .cardBox.cardBottom::after,
+  .cardBox.cardRight::after,
+  .cardBox.cardLeft::after {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .cardBox.cardTop::before,
+  .cardBox.cardBottom::before,
+  .cardBox.cardRight::before,
+  .cardBox.cardLeft::before {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* xs device portfolio css start here */
+
+  #portfolio .portSlider {
+    margin: 0 auto;
+  }
+
+  #portfolio .portSlider img {
+    width: 100%;
+  }
+
+  #portfolio .portSlider .port-image {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-right: 0px !important;
+  }
+
+  #portfolio .portSlider .port-image .image .overly {
+    width: 101%;
+  }
+
+  #ourServices .serviceSlider {
+    padding: 20px 0;
+  }
+
+  /* xs device ourServices css start here */
+
+
+  #ourServices .serviceSlider .sliderMain {
+    padding: 40px 0;
+  }
+
+  #ourServices .serviceSlider .sliderMain.rightSide .row {
+    flex-direction: column-reverse !important;
+  }
+
+  #ourServices .sliderMain .title {
+    display: block;
+    text-align: center !important;
+  }
+
+  #ourServices .serviceSlider .sliderMain .title h3 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+  }
+
+  #ourServices .serviceSlider .sliderMain .icon img {
+    height: 30px;
+  }
+
+  #ourServices .serviceSlider .scrollUp {
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+
+  #ourServices .serviceSlider .scrollDown {
+    position: absolute;
+    top: 0;
+    left: 60%;
+  }
+
+  #ourServices .serviceSlider::before {
+    display: none;
+  }
+
+  #ourServices .serviceSlider .box {
+    padding: 20px 15px 4px !important;
+    text-align: center !important;
+    border-radius: 10px;
+  }
+
+  #ourServices .serviceSlider .box:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    top: -15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) rotate(45deg) !important;
+    -webkit-transform: translateX(-50%) rotate(45deg) !important;
+    -moz-transform: translateX(-50%) rotate(45deg) !important;
+    -ms-transform: translateX(-50%) rotate(45deg) !important;
+    -o-transform: translateX(-50%) rotate(45deg) !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sliderMain.slick-center .box.right {
+    filter: drop-shadow(-3px 3px 2px #bdb3b3);
+    -webkit-filter: drop-shadow(-3px 3px 2px #bdb3b3);
+  }
+
+  /* xs device testimonial css start here */
+
+  #testimonial .client .clinetsImage .imgBox {
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: #cccccc;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 60px;
+    padding-top: 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transform: scale(0.8) !important;
+    -webkit-transform: scale(0.8) !important;
+    -moz-transform: scale(0.8) !important;
+    -ms-transform: scale(0.8) !important;
+    -o-transform: scale(0.8) !important;
+  }
+
+  #testimonial .client .clinetsImage .slick-center .imgBox {
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    background: #fec600;
+  }
+
+  #testimonial .testiSliderMain .sliderBox {
+    padding: 30px 15px 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  #testimonial .testiSliderMain .sliderBox::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    content: '';
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  #testimonial .client .clinetsImage {
+    padding: 75px 0 25px;
+  }
+
+  /* xs device counter css start here */
+
+
+  #counter {
+    height: 100%;
+    clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 100%);
+    padding: 10px 0 40px;
+    overflow-x: hidden;
+  }
+
+  #counter .cunterMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    padding: 0 20px;
+    transform: rotate(-3.1deg);
+    -webkit-transform: rotate(-3.1deg);
+    -moz-transform: rotate(1.9deg);
+    -ms-transform: rotate(-3.1deg);
+    -o-transform: rotate(-3.1deg);
+    margin-top: 95px;
+  }
+
+  #counter .cunterMain .counterCard {
+    width: 135px;
+    padding: 10px 0;
+    margin-bottom: 4px;
+  }
+
+  #counter .cunterMain .counterCard h3 {
+    font-size: 20px;
+  }
+
+  #counter .cunterMain .counterCard span {
+    font-size: 14px;
+  }
+
+  /* xs device team css start here */
+
+  #team .teamMember {
+    margin-bottom: 15px;
+  }
+
+  #team .teamMember .memberImage {
+    height: 200px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    font-size: 16px;
+  }
+
+  #team .teamMember .memberDetails h5 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  #team .teamMember:hover .socialLinks {
+    padding: 7px 0 7px;
+  }
+
+  #team .teamMember .memberDetails h3 {
+    margin-bottom: 3px;
+  }
+
+  /* xs device pricing css start here */
+
+  #pricing .planCard {
+    background: #f1f1f1;
+    transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -ms-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  /* xs device brands css start here */
+
+  #brands {
+    padding-top: 115px;
+    overflow: hidden;
+  }
+
+  #brands .brandMain {
+    margin: 0;
+    transform: rotate(-8.8deg);
+    -webkit-transform: rotate(-8.8deg);
+    -moz-transform: rotate(-8.8deg);
+    -ms-transform: rotate(-8.8deg);
+    -o-transform: rotate(-8.8deg);
+  }
+
+  #brands .brandMain .brandCard {
+    width: 160px;
+    height: 90px;
+  }
+
+  #brands .brandMain .brandCard img {
+    line-height: 90px;
+    width: 130px;
+  }
+
+  /* xs device footer css start here */
+
+  #footer .logo {
+    margin-bottom: 35px;
+  }
+
+  #footer .socialLinks ul li {
+    margin-right: 10px;
+  }
+
+  #footer .socialLinks ul a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #footer .socialLinks ul a i {
+    font-size: 16px;
+  }
+
+  #footer .allAdderss {
+    border-right: none;
+    margin-bottom: 25px;
+  }
+
+  #footer .socialLinks {
+    margin-top: 8px;
+  }
+
+  #footer .socialLinks .title h4 {
+    font-size: 16px;
+  }
+
+  #footer .socialLinks ul {
+    margin-top: 15px;
+  }
+}

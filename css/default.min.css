@@ -1,0 +1,47 @@
+.sectionTitle {
+  text-align: center;
+}
+
+.sectionTitle h3 {
+  color: #111111;
+}
+
+.sectionTitle p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 35px;
+  margin-bottom: 56px;
+  color: #353535;
+}
+
+#backToTop {
+  position: fixed;
+  right: 40px;
+  bottom: 53.5px;
+  background: #fec600;
+  width: 40px;
+  height: 40px;
+  color: #111111;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 99999999;
+}
+
+#backToTop i {
+  line-height: 40px;
+}
+
+
+.bannerImageStyle{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=default.min.css.map */
